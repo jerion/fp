@@ -1,0 +1,12 @@
+
+public class charactor {
+
+	public static void main(String[] args) {
+		int level ;
+		int hp_now, hp_max;
+		int mp_now, mp_max;
+		
+
+	}
+
+}
