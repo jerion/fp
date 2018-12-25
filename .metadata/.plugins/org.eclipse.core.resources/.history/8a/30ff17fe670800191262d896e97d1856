@@ -1,0 +1,13 @@
+package buff;
+
+public class Buff {
+	String name;
+	int level;
+	int stats;
+	
+	public Buff(String nm, int lv, int stat) {
+		name = nm;
+		level = lv;
+		stats = stat;
+	}
+}

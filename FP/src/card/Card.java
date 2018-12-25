@@ -1,27 +1,30 @@
 package card;
 
 public class Card {
-	private String cdnm;
-	private String element;
-	private int cdlv;
-	private int mana;
-	private int atk;
+	public String name;
+	public String element;
+	public int level;
+	public int mana;
+	public int attack;
 	
-	public Card()
-	{
-		cdnm = "null";
-		element = "null";
-		cdlv = 0;
-		mana = 0;
-		atk = 0;
-	}
+	public int add_mana;
+	public int add_card;
+	public int copy_card;
 	
-	public void setcd(String nm, String ele, int lv, int mag, int atc)
+	public Card(String nm, String ele, int lv, int mn, int atk)
 	{
-		cdnm = nm;
+		name = nm;
 		element = ele;
-		cdlv = lv;
-		mana = mag;
-		atk = atc;
+		level = lv;
+		mana = mn;
+		attack = atk;
 	}
+	
+	public void effect(int amana, int acard, int ccard)
+	{
+		add_mana = amana;
+		add_card = acard;
+		copy_card = ccard;
+	}
+	
 }

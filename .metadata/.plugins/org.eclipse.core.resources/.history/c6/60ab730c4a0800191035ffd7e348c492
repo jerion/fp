@@ -1,0 +1,21 @@
+package charactor;
+
+public class Charactor {
+	int level;
+	int health, mana;
+	int experience;
+	
+	public Charactor(int lv, int h, int m, int e) {
+		level = lv;
+		health = h;
+		mana = m;
+		experience = e;
+	}
+	
+	public void setCharactor(int lv, int h, int m, int e) {
+		level = lv;
+		health = h;
+		mana = m;
+		experience = e;
+	}
+}

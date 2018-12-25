@@ -1,0 +1,40 @@
+package card;
+
+import buff.Buff;
+
+public class Card {
+	String name;
+	String element;
+	int level;
+	int mana;
+	int attack;
+	
+	int add_mana;
+	int add_card;
+	int copy_card;
+	
+	Buff[] buff;
+	
+	public Card(String nm, String ele, int lv, int mn, int atk)
+	{
+		name = nm;
+		element = ele;
+		level = lv;
+		mana = mn;
+		attack = atk;
+	}
+	
+	public void effect(int amana, int acard, int ccard)
+	{
+		add_mana = amana;
+		add_card = acard;
+		copy_card = ccard;
+	}
+	
+	public Buff[] addbuff(int num, String nm, int lv, int stat) {
+		buff[num].name = nm;
+		buff[num].level = lv;
+		buff[num].stats = stat;
+		return buff;
+	}
+}
