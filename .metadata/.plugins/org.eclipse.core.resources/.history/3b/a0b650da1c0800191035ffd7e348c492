@@ -1,0 +1,22 @@
+package charactor;
+
+public class Charactor {
+	private int level;
+	private int hp, mp, exp;
+	
+	public Charactor()
+	{
+		level = 0;
+		hp = 0;
+		mp = 0;
+		exp = 0;
+	}
+	
+	public void setchr(int lv, int h, int m, int e)
+	{
+		level = lv;
+		hp = h;
+		mp = m;
+		exp = e;
+	}
+}
