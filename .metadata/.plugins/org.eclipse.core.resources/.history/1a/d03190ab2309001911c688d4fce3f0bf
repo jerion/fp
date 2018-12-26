@@ -1,0 +1,11 @@
+package card;
+
+public class Atk_Card extends Card {
+	
+	public int attack;
+	
+	public Atk_Card(String nm, String ele, int lv, int mn, int atk) {
+		super(nm, ele, lv, mn);
+		attack = atk;
+	}	
+}

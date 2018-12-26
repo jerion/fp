@@ -1,30 +1,17 @@
 package card;
 
 public class Card {
-	public String name;
-	public String element;
-	public int level;
-	public int mana;
-	public int attack;
+	public String Name;
+	public String Element;
+	public int Level;
+	public int Mana;
 	
-	public int add_mana;
-	public int add_card;
-	public int copy_card;
-	
-	public Card(String nm, String ele, int lv, int mn, int atk)
+	public Card(String name, String element, int level, int mana)
 	{
-		name = nm;
-		element = ele;
-		level = lv;
-		mana = mn;
-		attack = atk;
+		Name = name;
+		Element = element;
+		Level = level;
+		Mana = mana;
 	}
-	
-	public void effect(int amana, int acard, int ccard)
-	{
-		add_mana = amana;
-		add_card = acard;
-		copy_card = ccard;
-	}
-	
+
 }

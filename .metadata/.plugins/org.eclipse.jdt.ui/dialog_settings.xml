@@ -38,6 +38,7 @@
 		<item value="false" key="JarManifestWizardPage.SAVE_MANIFEST"/>
 		<item value="false" key="JarPackageWizardPage.EXPORT_OUTPUT_FOLDER"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\jerion715\Desktop\city\resource.jar"/>
 			<item value="C:\Users\jerion715\Desktop\city\TTTT.jar"/>
 		</list>
 	</section>

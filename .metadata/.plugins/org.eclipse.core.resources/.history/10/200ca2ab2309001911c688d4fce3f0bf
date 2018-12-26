@@ -1,0 +1,18 @@
+package charactor;
+
+public class Charactor {
+	public String name;
+	public int level;
+	public int health, mana;
+	public int experience;
+	public int money;
+	
+	public Charactor(String nm, int lv, int hp, int mp, int e, int mony) {
+		name = nm;
+		level = lv;
+		health = hp;
+		mana = mp;
+		experience = e;
+		money = mony;
+	}
+}

@@ -1,0 +1,11 @@
+package stage;
+
+public class Stage {
+	public String name;
+	public String description;
+	
+	public Stage(String nm, String des) {
+		name = nm;
+		description = des;
+	}
+}

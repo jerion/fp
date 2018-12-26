@@ -1,0 +1,20 @@
+package card;
+
+public class Effect_Card {
+	public String name;
+	public String element;
+	public int mana;
+	public int add_mana;
+	public int add_card;
+	public int copy_card;
+	
+	public Effect_Card(String nm, String ele, int mn, int amana, int acard, int ccard)
+	{
+		name = nm;
+		element = ele;
+		mana = mn;
+		add_mana = amana;
+		add_card = acard;
+		copy_card = ccard;
+	}
+}

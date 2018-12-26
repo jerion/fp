@@ -1,0 +1,18 @@
+package card;
+
+public class Atk_Card {
+	public String name;
+	public String element;
+	public int level;
+	public int mana;
+	public int attack;
+	
+	public Atk_Card(String nm, String ele, int lv, int mn, int atk)
+	{
+		name = nm;
+		element = ele;
+		level = lv;
+		mana = mn;
+		attack = atk;
+	}
+}

@@ -1,6 +1,7 @@
 package buff;
 
 public class Buff {
+	
 	public String name;
 	public int level;
 	public int stats;

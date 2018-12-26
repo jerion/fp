@@ -1,0 +1,14 @@
+package card;
+
+public class Effect_Card {
+	public int add_mana;
+	public int add_card;
+	public int copy_card;
+	
+	public Effect_Card(int amana, int acard, int ccard)
+	{
+		add_mana = amana;
+		add_card = acard;
+		copy_card = ccard;
+	}
+}
