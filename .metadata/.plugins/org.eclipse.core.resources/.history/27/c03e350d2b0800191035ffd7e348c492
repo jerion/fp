@@ -1,8 +1,0 @@
-import charactor.Charactor;
-
-public class Witch {
-	public static void main(String[] args) {
-		Charactor witch = new Charactor();
-		witch.setcharactor(1, 20, 1, 2);
-	}
-}
