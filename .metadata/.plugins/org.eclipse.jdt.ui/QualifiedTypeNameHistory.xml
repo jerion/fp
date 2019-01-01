@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="card.Card"/>
 <fullyQualifiedTypeName name="buff.Buff"/>
+<fullyQualifiedTypeName name="charactor.Charactor"/>
+<fullyQualifiedTypeName name="card.Atk_Card"/>
+<fullyQualifiedTypeName name="card.Effect_Card"/>
+<fullyQualifiedTypeName name="card.Card"/>
 </qualifiedTypeNameHistroy>
